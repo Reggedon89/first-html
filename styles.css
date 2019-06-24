@@ -70,6 +70,20 @@ h1:hover {
     height: 6em;
     width: 10em;
     border-radius: 50px;
+    background-color: blue;
+    font-size: 15px;
+    color: white;
+}
+
+#submit-button:hover {
+    animation-name: button-color;
+    animation-duration: 1000ms;
+}
+
+@keyframes button-color{
+    100% {
+       color: red;
+    }
 }
 
 
