@@ -15,6 +15,17 @@ body {
     margin-top: 0;
 }
 
+h1:hover {
+    animation-name: h1-color;
+    animation-duration: 10000ms;
+}
+
+@keyframes h1-color {
+    100% {
+        color: red;
+    }
+}
+
 #wrapper {
     margin-left: 25%;
     width: 50%;
@@ -55,8 +66,10 @@ body {
     padding-bottom: 25px;
 }
 
-#submit {
-    width: 20em;
-    height: 2em;
+#submit-button {
+    height: 6em;
+    width: 10em;
+    border-radius: 50px;
 }
+
 
