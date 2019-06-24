@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>About Me</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-    <div id="intro">
-        <h1>Hello Everybody!</h1>
-        <h2>Dr Nick's Very good WebPage</h2>
-        <img id="profile-pic" src="https://i.pinimg.com/originals/ee/72/4d/ee724d50114e4d828c2f31f8d8fb3d8c.gif" alt="Picture of Dr. Nick" height="200px" width="200px">
-    </div>
+    <header>
+
+        <div id="intro">
+            <h1>Hello Everybody!</h1>
+            <h2>Dr Nick's Very good WebPage</h2>
+            <img id="profile-pic" src="https://i.pinimg.com/originals/ee/72/4d/ee724d50114e4d828c2f31f8d8fb3d8c.gif" alt="Picture of Dr. Nick" height="200px" width="200px">
+         </div>
+    </header>
+<div id="wrapper">
     <div id="description">
         <p>I am very good Doctor in Springfield</p>
-        <p>Rated #1</p>
+        <p>Rated<span id="number1"> #1</span></p>
     </div>
 
-    <div id="qualifications">
+    <div id="outer-qual">
+
         <p>I went to very best schools</p>
-        <ul>
-            <li>HollyWood Upstairs Medical College</li>
-            <li>Club Med School</li>
-        </ul>
+        <div id="qual">
+
+             <ul style="list-style: none">
+                <li>HollyWood Upstairs Medical College</li>
+                <li>Club Med School</li>
+             </ul>
+
+         </div>
 
         <p>Listen to very sastified patients</p>
         <ul style="list-style: none" id="customer-reviews">
+
             <li>
                 <p>"He is terrible, would not come again!" <br> Apu</p>
                 <img class="patient_pic" src="https://cf-images.us-east-1.prod.boltdns.net/v1/static/769341148/66dc0c3b-ad8e-4f50-8aa8-647f3790bca0/31f9a7d2-daf5-4ed6-bf96-80e4195c4356/1280x720/match/image.jpg" alt="Picture of Apu" width="100px" height="100px">
             </li>
+
             <li>
-            <p>"Total sucks man." <br> Bart Simpson</p>
-            <img class="patient_pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRWfBNocznwiv6z76hYyJZiK_v9CIExd-uq2bzREdvmQpXhkb_" alt="Pic of Bart with slingshot" height="100px" width="100px">
+                <p>"Totally sucks man." <br> Bart Simpson</p>
+                <img class="patient_pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRWfBNocznwiv6z76hYyJZiK_v9CIExd-uq2bzREdvmQpXhkb_" alt="Pic of Bart with slingshot" height="100px" width="100px">
             </li>
+
             <li>
                 <p>"How is he allowed to practice medicine?" <br> Moleman</p>
                 <img class="patient_pic" src="https://i.imgflip.com/2/1b2ds6.jpg" alt="Moleman holding his glasses" height="100px" width="100px">
@@ -40,7 +53,9 @@
     </div>
 
     <div id="medical-form">
+
         <h2>Using super high-tech. Dr. Nick can now diagnose through internet!</h2>
+
         <form action="" method="GET" class="medical-form">
             <div class="text-field">
                 <label for="name">Name Go Here: </label>
@@ -54,14 +69,26 @@
                 <label for="text-area">Tell Dr. Nick Where is Hurting:  </label>
                 <textarea placeholder="You do writing here"id="text-area" name="super-high-tech-diagnosis" rows="5" cols="33" ></textarea>
             </div>
+            <div>
+                <input type="submit" value="Submit" height="50px" width="100px">
+                <p><sup>*</sup>Dr. Nick is not responsible for your information if it is sold to scammers to pay for Dr. Nicks Malpractice suits</p>
+            </div>
+
         </form>
+
     </div>
+
     <footer>
+
         <h2>Contact Me? Yes!</h2>
+
     <div id="contact">
         <p>1234 Main Street, Springfield</p>
         <p>My Electronic Mail : <a href="#" target="_blank">bestdoctor@netscape.com</a></p>
-    </div>
+        <p>Read more about Dr. Nick <a href="https://en.wikipedia.org/wiki/Dr._Nick" target="_blank">Here!</a> </p>
+    </div
+    >
     </footer>
+</div>
     </body>
 </html>

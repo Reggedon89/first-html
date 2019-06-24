@@ -1,11 +1,26 @@
 body {
-    background: rgba(226, 226, 226, 1);
     text-align: center;
 }
 
+#intro {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
 #intro h1 {
+    width: 100%;
     font-size: 200px;
     color: rgba(237, 88, 19, 0.568);
+    background: rgba(226, 226, 226, 1);
+    margin-top: 0;
+}
+
+#wrapper {
+    margin-left: 25%;
+    width: 50%;
+    border: solid black;
+    align-content: center;
+    background-color: antiquewhite
 }
 
 #profile-pic {
@@ -17,4 +32,31 @@ body {
     border-radius: 10px;
 }
 
+#qual ul  {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#description {
+    font-size: 25px;
+}
+
+#number1 {
+    font-weight: bold;
+    font-size: 30px; 
+}
+
+#outer-qual p {
+    font-size: 25px;
+}
+
+.text-field {
+    padding-bottom: 25px;
+}
+
+#submit {
+    width: 20em;
+    height: 2em;
+}
 
