@@ -1,0 +1,20 @@
+body {
+    background: rgba(226, 226, 226, 1);
+    text-align: center;
+}
+
+#intro h1 {
+    font-size: 200px;
+    color: rgba(237, 88, 19, 0.568);
+}
+
+#profile-pic {
+ border-radius: 30px;   
+}
+
+
+.patient_pic {
+    border-radius: 10px;
+}
+
+
